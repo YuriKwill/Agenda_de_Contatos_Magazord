@@ -1,6 +1,5 @@
 # Projeto CRUD com Symfony e Doctrine-ORM 
-a
-Este é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framework Symfony, seguindo o padrão MVC e utilizando o Doctrine ORM para gerenciar o banco de dados.
+Está Agenda é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framework Symfony, seguindo o padrão MVC e utilizando o Doctrine ORM para gerenciar o banco de dados.
 
 ## Requisitos
 
