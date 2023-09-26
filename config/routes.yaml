@@ -1,5 +1,17 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# config/routes.yaml
+
+gerenciar_contatos:
+    path: /pessoa
+    controller: App\Controller\PessoaController::gerenciar
+
+excluir_contato:
+    path: /pessoa/excluir/{id}
+    controller: App\Controller\PessoaController::excluir
+
+editar_contato:
+    path: /pessoa/editar/{id}
+    controller: App\Controller\PessoaController::editar
+
+criar_novo_contato:
+    path: /pessoa/novo
+    controller: App\Controller\PessoaController::adicionar

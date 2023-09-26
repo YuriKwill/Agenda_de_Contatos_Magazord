@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Editar Contato{% endblock %}
+
+{% block content %}
+    <div class="container mt-4">
+        {{ form_start(form) }}
+
+        <div class="mb-3">
+            {{ form_label(form.nome, 'Nome completo', {'label_attr': {'class': 'form-label'}}) }}
+            {{ form_widget(form.nome, {'attr': {'class': 'form-control'}}) }}
+        </div>
+
+        <div class="mb-3">
+            {{ form_label(form.cpf, 'CPF', {'label_attr': {'class': 'form-label'}}) }}
+            {{ form_widget(form.cpf, {'attr': {'class': 'form-control'}}) }}
+        </div>
+
+        <div class="mb-3">
+            {{ form_label(form.email, 'Email', {'label_attr': {'class': 'form-label'}}) }}
+            {{ form_widget(form.email, {'attr': {'class': 'form-control'}}) }}
+        </div>
+
+        <div class="mb-3">
+            {{ form_label(form.telefone, 'Telefone', {'label_attr': {'class': 'form-label'}}) }}
+            {{ form_widget(form.telefone, {'attr': {'class': 'form-control'}}) }}
+        </div>
+
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

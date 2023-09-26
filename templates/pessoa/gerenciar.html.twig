@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Gerenciar Contatos{% endblock %}
+
+{% block content %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for contato in contatos %}
+                <tr>
+                    <th scope="row">{{ contato.id }}</th>
+                    <td>{{ contato.nome }}</td>
+                    <td>
+                        <a href="{{ path('editar_contato', {'id': contato.id}) }}" class="btn btn-warning">Editar</a>
+                        <a href="{{ path('excluir_contato', {'id': contato.id}) }}" class="btn btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
