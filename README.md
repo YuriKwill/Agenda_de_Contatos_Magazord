@@ -12,7 +12,7 @@ Este é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framew
 ## Configuração do Symfony
 
 1. Instale o bin do Symfony e extraia para  C:\symfony
-2. Após vá no procurar do windons e escreva "variáveis de ambiente" e em seguida abra.
+2. Após isso vá no procurar do windows e escreva "variáveis de ambiente" e em seguida a abra.
 3. Após abrir vá em "Variáveis de Ambiente..." e edite o Path de ambas as variáveis, adicionando o repositório do symfony.
 
 ## Instalação
