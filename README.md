@@ -26,6 +26,7 @@ git clone https://github.com/YuriKwill/Agenda_de_Contatos_Magazord
 4. Crie o banco de dados e as tabelas:
 
 php bin/console doctrine:database:create
+<br>
 php bin/console doctrine:migrations:migrate
 
 5. Para rodar o projeto, utilize o servidor embutido do Symfony no Windows PowerShell.
