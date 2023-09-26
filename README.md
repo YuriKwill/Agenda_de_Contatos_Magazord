@@ -6,17 +6,20 @@ Este é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framew
 
 - PHP (versão >= 7.4))
 - Composer
-- Banco de dados (por exemplo, MySQL)
+- Banco de dados (por exemplo, PostgreSQL)
+- Symfony
+
+## Configuração do Symfony
+
+1. Instale o bin do Symfony e extraia para  C:\symfony
+2. Após vá no procurar do windons e escreva "variáveis de ambiente" e em seguida abra.
+3. Após abrir vá em "Variáveis de Ambiente..." e edite o Path de ambas as variáveis, adicionando o repositório do symfony.
 
 ## Instalação
 
 1. Clone o repositório para sua máquina local:
 
 git clone https://github.com/YuriKwill/Agenda_de_Contatos_Magazord
-
-2. Instale as dependências do projeto:
-
-composer install
 
 3. Configure o banco de dados editando o arquivo `.env` com suas credenciais:
 
@@ -25,8 +28,10 @@ composer install
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate
 
-5. Para rodar o projeto, utilize o servidor embutido do Symfony:
+5. Para rodar o projeto, utilize o servidor embutido do Symfony no Windows PowerShell.
+
+-Certifique-se de estar na pasta do projeto. navege utilizando "cd .."
 
 symfony server:start
 
-6. Acesse o projeto em 'https://127.0.0.1:8000/pessoa/novo'
+7. Acesse o projeto em 'https://127.0.0.1:8000/pessoa/novo'
