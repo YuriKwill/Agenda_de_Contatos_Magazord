@@ -6,7 +6,7 @@ Está Agenda é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com 
 - PHP (versão >= 7.4))
 - Composer
 - Banco de dados (por exemplo, PostgreSQL)
-- Symfony
+- Symfony https://symfony.com/download
 
 ## Configuração do Symfony
 
