@@ -30,7 +30,7 @@ git clone https://github.com/YuriKwill/Agenda_de_Contatos_Magazord
 
 5. Para rodar o projeto, utilize o servidor embutido do Symfony no Windows PowerShell.
 
--Certifique-se de estar na pasta do projeto. navege utilizando "cd .."
+- Certifique-se de estar na pasta do projeto. navege utilizando "cd .."
 
 - symfony server:start
 
