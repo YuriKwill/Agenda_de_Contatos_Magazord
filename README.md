@@ -3,7 +3,7 @@ Está Agenda é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com 
 
 ## Funcionalidades
 
-- Possui uma página para criar um novo contato e uma página dedicada a gerenciar os contatos, inclindo as ações de excluir, editar e vizualizar.  
+- Possui uma página para criar um novo contato e uma página dedicada a gerenciar os contatos, inclundo as ações de excluir, editar e vizualizar.  
 
 ## Requisitos
 
