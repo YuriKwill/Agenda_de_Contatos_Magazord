@@ -4,7 +4,7 @@ Este é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framew
 
 ## Requisitos
 
-- PHP (versão X.X.X)
+- PHP (versão >= 7.4))
 - Composer
 - Banco de dados (por exemplo, MySQL)
 
@@ -25,8 +25,8 @@ composer install
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate
 
-Para rodar o projeto, utilize o servidor embutido do Symfony:
+5. Para rodar o projeto, utilize o servidor embutido do Symfony:
 
 symfony server:start
 
-Acesse o projeto em 'https://127.0.0.1:8000/pessoa/novo'
+6. Acesse o projeto em 'https://127.0.0.1:8000/pessoa/novo'
