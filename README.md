@@ -1,6 +1,10 @@
 # Projeto CRUD com Symfony e Doctrine-ORM 
 Está Agenda é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framework Symfony, seguindo o padrão MVC e utilizando o Doctrine ORM para gerenciar o banco de dados.
 
+## Funcionalidades
+
+- Possui uma página para criar um novo contato e uma página dedicada a gerenciar os contatos, inclindo as ações de excluir, editar e vizualizar.  
+
 ## Requisitos
 
 - PHP (versão >= 7.4) 'https://www.php.net/downloads.php'
