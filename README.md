@@ -1,5 +1,5 @@
-# Projeto CRUD com Symfony
-
+# Projeto CRUD com Symfony e Doctrine-ORM 
+a
 Este é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com o framework Symfony, seguindo o padrão MVC e utilizando o Doctrine ORM para gerenciar o banco de dados.
 
 ## Requisitos
@@ -29,4 +29,4 @@ Para rodar o projeto, utilize o servidor embutido do Symfony:
 
 symfony server:start
 
-Acesse o projeto em [[http://127.0.0.1:8000/](https://127.0.0.1:8000/pessoa/novo)https://127.0.0.1:8000/pessoa/novo]
+Acesse o projeto em 'https://127.0.0.1:8000/pessoa/novo'
